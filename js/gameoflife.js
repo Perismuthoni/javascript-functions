@@ -1,17 +1,20 @@
-function seed() {}
+function seed() {a, b, c}
 
-function same([x, y], [j, k]) {}
+function same([0, 0], [4, 2]) {}
 
 // The game state to search for `cell` is passed as the `this` value of the function.
-function contains(cell) {}
+function contains([3,4], [4,4]) {}
 
-const printCell = (cell, state) => {};
+const printCell = (cell, state) => {'\u25A2' : '\u25A2'};
 
 const corners = (state = []) => {};
 
 const printCells = (state) => {};
 
-const getNeighborsOf = ([x, y]) => {};
+const getNeighborsOf = ([1,3] [2,3] [3,3]
+  [1,2][2,2][3,2]
+  [1,1][2,1][3,1]
+  ) => {};
 
 const getLivingNeighbors = (cell, state) => {};
 
@@ -19,9 +22,9 @@ const willBeAlive = (cell, state) => {};
 
 const calculateNext = (state) => {};
 
-const iterate = (state, iterations) => {};
+const iterate = (state, 2) => {};
 
-const main = (pattern, iterations) => {};
+const main = (rpentomino, 2) => {};
 
 const startPatterns = {
     rpentomino: [

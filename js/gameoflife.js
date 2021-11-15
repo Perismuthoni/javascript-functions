@@ -1,4 +1,8 @@
-function seed() {a, b, c}
+function seed(a, b, c) {
+  console.log(arguments[0]);
+  console.log(arguments[1]);
+  console.log(arguments[2]);
+}
 
 function same([0, 0], [4, 2]) {}
 
